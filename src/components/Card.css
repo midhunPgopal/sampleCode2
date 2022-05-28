@@ -1,0 +1,33 @@
+.Cards {
+    margin : 1vw;
+    padding: 1vw;
+    width : 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    border : 1px solid rgb(167, 222, 222);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.Cards:hover {
+    transform: scale(1.1);
+}
+.Cards h3 {
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    color: rgb(17, 51, 51);
+    font-size: 1.2vw;
+}
+.Cards p {
+    height: 5vw;
+    margin: 0.5vw;
+    overflow: hidden;
+    color: rgb(26, 139, 139);
+    font-size: 1vw;
+    font-weight: 600;
+}
+.Cards img {
+    margin: 1vw;
+    border: 5px solid rgb(3, 79, 79);
+}
